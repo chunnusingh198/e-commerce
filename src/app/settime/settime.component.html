@@ -1,0 +1,34 @@
+<div class="sectionstart">
+  <div class="settime">
+    <!-- form section  -->
+    <div class="formsection" *ngIf="!showdata">
+      <form class="formset" [formGroup]="upcomingform">
+        <label>Enter Your Name</label>
+        <input type="text" placeholder="Enter Name" formControlName="name">
+        <label>Enter Coming Time</label>
+        <input type="time" placeholder="Enter Coming Time" formControlName="time">
+        <label>Enter OutGoing Time</label>
+        <input type="time" placeholder="Enter OutGoing Time" formControlName="endtime">
+        <button type="button" class="sendbutton" (click)="submitdata()" [disabled]="upcomingform.invalid">Send</button>
+      </form>
+    </div>
+    <!-- result section  -->
+    <div class="resultsection" *ngIf="showdata">
+      <div class="showresult">
+        <table class="customers">
+          <tr>
+            <th>Namr</th>
+            <th>Start Timeing</th>
+            <th>End Timeing</th>
+          </tr>
+          <tr>
+            <td>{{username}}</td>
+            <td>{{starttime}}</td>
+            <td>{{endtime}}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,28 @@
+<div class="header">
+  <h2><a routerLink="/">Logo</a></h2>
+<div class="searchbar" *ngIf="menutype === 'default'">
+  <input type="search" #searchinput (keyup)="searchdata($event)" (blur)="hidesearch()" placeholder="search for product">
+  <button type="button" (click)="searchdatas(searchinput.value)">Search</button>
+  <ul class="setresult" *ngIf="searchresult">
+    <li *ngFor="let item of searchresult">
+      <a>{{item.productname}}</a>
+    </li>
+  </ul>
+</div>
+<div [ngSwitch]="menutype">
+ <ul *ngSwitchCase="'default'">
+    <li><a routerLink="">Home</a></li>
+    <li><a routerLink="/seller">Seller</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="#">Cart (0)</a></li>
+    <!-- <li><a routerLink="/settime">Timer Set</a></li> -->
+    <li><a routerLink="/count">Timer Set</a></li>
+  </ul>
+  <ul *ngSwitchCase="'seller'">
+    <li><a routerLink="/selle_home">Product List</a></li>
+    <li><a routerLink="/selle_product">Add Product</a></li>
+    <li><a (click)="logout()">Logout</a></li>
+    <li><a>{{sellername[0].name |  titlecase }}</a></li>
+  </ul>
+</div>
+</div>

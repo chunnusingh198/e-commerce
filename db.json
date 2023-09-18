@@ -1,0 +1,106 @@
+{
+  "seller": [
+    {
+      "name": "chunnu",
+      "email": "chunnu.kumar@ashmar.in",
+      "password": "Monet@615",
+      "id": 1
+    },
+    {
+      "name": "pankaj",
+      "email": "pankaj.kumar@ashmar.in",
+      "password": "Monet@615",
+      "id": 2
+    },
+    {
+      "name": "amit",
+      "password": "Monet@615",
+      "email": "amit@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "walmart",
+      "password": "Monet@615",
+      "email": "walmart@monet.com",
+      "id": 4
+    },
+    {
+      "name": "deeshan",
+      "password": "Dd@123456",
+      "email": "deeshan.sharma@ashmar.in",
+      "id": 5
+    },
+    {
+      "name": "brian",
+      "password": "Monet@615",
+      "email": "brian@monet.com",
+      "id": 6
+    },
+    {
+      "name": "xyz",
+      "password": "Monet@615",
+      "email": "xyz@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "fgjhjg",
+      "password": "Monet@615",
+      "email": "sdfs@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Home",
+      "password": "Monet@615",
+      "email": "fdfd@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "dd",
+      "password": "Monet@615",
+      "email": "dd@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "walm",
+      "password": "Monet@615",
+      "email": "ee@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "monet",
+      "password": "Monet@615",
+      "email": "monet@gmail.com",
+      "id": 12
+    }
+  ],
+  "addproduct": [
+    {
+      "productname": "Galaxy A23 5G (6GB RAM)",
+      "price": 21999,
+      "productDetails": "No Cost EMI starts from ₹ 2221.49/ month. 50 MP (OIS camera) Snapdragon 695 Processor Full HD+ Display, 120Hz refresh rate",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a236ezsgins/gallery/in-galaxy-a23-5g-sm-a236-sm-a236ezsgins-534854478?$1300_1038_PNG$",
+      "id": 10
+    },
+    {
+      "productname": "Galaxy A23 5G (6GB RAM)",
+      "price": 21999,
+      "productDetails": "No Cost EMI starts from ₹ 2221.49/ month. 50 MP (OIS camera) Snapdragon 695 Processor Full HD+ Display, 120Hz refresh rate",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a236ezsgins/gallery/in-galaxy-a23-5g-sm-a236-sm-a236ezsgins-534854478?$1300_1038_PNG$",
+      "id": 11
+    },
+    {
+      "productname": "Galaxy A23 5G (6GB RAM)",
+      "price": 21999,
+      "productDetails": "No Cost EMI starts from ₹ 2221.49/ month. 50 MP (OIS camera) Snapdragon 695 Processor Full HD+ Display, 120Hz refresh rate",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a236ezsgins/gallery/in-galaxy-a23-5g-sm-a236-sm-a236ezsgins-534854478?$1300_1038_PNG$",
+      "id": 12
+    },
+    {
+      "productname": "Galaxy A23 5G (6GB RAM)",
+      "price": 21999,
+      "productDetails": "No Cost EMI starts from ₹ 2221.49/ month. 50 MP (OIS camera) Snapdragon 695 Processor Full HD+ Display, 120Hz refresh rate",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a236ezsgins/gallery/in-galaxy-a23-5g-sm-a236-sm-a236ezsgins-534854478?$1300_1038_PNG$",
+      "id": 13
+    }
+  ]
+}

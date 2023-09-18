@@ -1,0 +1,36 @@
+<div class="sellersection">
+  <div class="sellerfirstsection">
+    <div class="sellertext">
+      <h2>Become an Amazon seller</h2>
+      <p>Start your selling journey on Amazon and become a part of our 12 Lakh+ seller community</p>
+      <button class="startseling" (click)="selingstart()">Start Seling</button>
+    </div>
+    <div class="sellerimg">
+      <img src="../../assets/image/banner.png">
+    </div>
+  </div>
+</div>
+<div class="container">
+<h3 class="mess">{{message}}</h3>
+<table>
+  <tr>
+    <th>Image</th>
+    <th>Product Name</th>
+    <th>Product Price</th>
+    <th>Product Details</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let data of list let i=index;">
+    <td class="images"><img src="{{data.image}}"></td>
+    <td>{{data.productname}}</td>
+    <td>{{data.price | currency:'INR'}}</td>
+    <td>{{data.productDetails}}</td>
+    <td>
+    <div class="actionbutton">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home" (click)="update(data.id)">edit</mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home" (click)="deleteproduct(data.id)">delete</mat-icon>
+    </div>
+    </td>
+  </tr>
+</table>
+</div>

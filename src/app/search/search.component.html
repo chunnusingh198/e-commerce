@@ -1,0 +1,16 @@
+<div class="results">
+  <table>
+    <tr>
+      <th>Image</th>
+      <th>Product Name</th>
+      <th>Product Price</th>
+      <th>Product Details</th>
+    </tr>
+    <tr *ngFor="let item of serarchresults">
+      <td class="images"><img src="{{item.image}}"></td>
+      <td>{{item.productname}}</td>
+      <td>{{item.price | currency:'INR'}}</td>
+      <td>{{item.productDetails}}</td>
+    </tr>
+  </table>
+</div>

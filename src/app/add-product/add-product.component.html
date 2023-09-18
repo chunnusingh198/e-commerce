@@ -1,0 +1,17 @@
+<div class="addpro">
+  <h3>Add Product Form</h3>
+  <div class="productadd">
+    <form [formGroup]="addproductform" class="addform">
+      <label>Product Name</label>
+      <input type="text" placeholder="Enter Product Name" formControlName="productname">
+      <label>Price</label>
+      <input type="number" placeholder="Enter Product Price" formControlName="price">
+      <label>Product Details</label>
+      <textarea type="text" placeholder="Enter Product Details" formControlName="productDetails"></textarea>
+      <label>Product Image</label>
+      <input type="text" placeholder="Enter Product image" formControlName="image">
+      <!-- <input type="file" (change)="onFileChanged($event)" accept=".jpg,.png"> -->
+      <button type="button" (click)="appproduct()" class="addbutton" [disabled]="addproductform.invalid">Add Product</button>
+    </form>
+  </div>
+</div>

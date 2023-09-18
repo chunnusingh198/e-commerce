@@ -1,0 +1,50 @@
+.banner img {
+  width: 100%;
+}
+.container {
+  padding: 0% 10%;
+}
+.showproduct {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4% 0 0 0;
+  flex-wrap: wrap;
+}
+.first img {
+  width: 100px;
+  height: 100px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  padding: 10px;
+  width: 90%;
+}
+.first h2 {
+  margin: 10px;
+}
+.ngdata {
+  width: 33%;
+    margin-bottom: 2%;
+}
+
+
+.viwebutton {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.viwebutton button {
+  border: 1px solid;
+  background: #00BCD4;
+  color: white;
+  padding: 2% 4%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
