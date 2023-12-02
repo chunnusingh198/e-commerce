@@ -1,0 +1,41 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.container{
+    width: 90%
+}
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 25px;
+}
+.text {
+    width: 50%;
+}
+.imagesection {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagesection img{
+    width: 40%;
+}
+.content p {
+    font-size: 17px;
+    font-family: roboto;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+    text-align: justify;
+}
+.content p a {
+    color: #38d2ef;
+    font-size: 18px;
+}

@@ -1,0 +1,130 @@
+.mainfooter {
+    border-top: 1px solid;
+    margin-top: 5%;
+}
+.footer {
+    padding: 0% 5% 3% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.firstsection {
+    width: 49%;
+}
+.secendsection {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.formsection{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.secendsection h2 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    font-family: roboto;
+    padding: 10px;
+    margin: 2% 0;
+}
+.firstsection h2 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    font-family: roboto;
+    padding: 10px;
+    margin: 2% 0;
+}
+.firstsection h3 {
+    max-width: 100%;
+    width: 70%;
+    font-size: 17px;
+    color: gray;
+    font-family: roboto;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.firstsection h5 {
+    max-width: 100%;
+    width: 70%;
+    font-size: 17px;
+    color: gray;
+    font-family: roboto;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.firstsection h4 a {
+    max-width: 400px;
+    width: 100%;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="text"] {
+    padding: 9px;
+}
+input[type="email"] {
+    padding: 10px;
+}
+input[type="number"] {
+    padding: 10px;
+}
+textarea {
+    width: 100%;
+    height: 110px;
+    padding: 5px;
+}
+.sendbutton {
+    width: fit-content;
+    padding: 1% 2%;
+    font-size: 16px;
+    cursor: pointer;
+}
+.rightsiteemail {
+    transform: rotate(90deg);
+    position: fixed;
+    width: 100%;
+    left: 48%;
+    bottom: -32%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+  }
+  .leftsiteemail {
+    transform: rotate(90deg);
+    position: fixed;
+    width: 100%;
+    right: 48%;
+    bottom: -32%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+  }
+  .rightsiteemail p a{
+     color: #ffffff;
+      font-family: none;
+      font-size: 20px;
+      cursor: pointer;
+      width: fit-content;
+      text-decoration: none;
+  }
+  .leftsiteemail p a{
+     color: #ffffff;
+      font-family: none;
+      font-size: 20px;
+      cursor: pointer;
+      width: fit-content;
+      text-decoration: none;
+  }  
+  .Connect {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

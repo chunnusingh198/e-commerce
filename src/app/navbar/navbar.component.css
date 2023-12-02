@@ -1,0 +1,43 @@
+.section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+.logosection {
+    width: 20%;
+    padding-left: 5%;
+}
+.navbarsection {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-right: 5%;
+}
+.nav a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.navsection {
+    border-bottom: 1px solid gray;
+}
+.navbutton a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbutton button {
+    background: #38d2ef;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+.navbarsection {
+    width: 80%;
+}
+}

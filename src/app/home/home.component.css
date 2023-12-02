@@ -1,0 +1,75 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+.container{
+    max-width: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.introsection{
+    display: flex;
+    flex-direction: column;
+}
+.introsection h2 {
+    font-size: 58px;
+    color: #fff;
+    font-weight: 500;
+    font-family: roboto;
+    line-height: 1.5;
+    margin: 0;
+}
+.introsection p {
+    max-width: 100%;
+    width: 70%;
+    font-size: 17px;
+    color: gray;
+    font-family: roboto;
+    line-height: 1.5;
+}
+.introsection h4 {
+    color: #2b8bd7;
+    font-size: 16px;
+    font-family: roboto;
+    line-height: 2.2;
+    margin: 0;
+    font-weight: 500;
+
+}
+.introButton a {
+    padding: 8px;
+    padding-inline: 28px;
+    font-size: 24px;
+    font-family: roboto;
+    color: #2b8bd7;
+    border: 2px solid #2b8bd7;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 3%;
+    text-decoration: none;
+}
+.introButton a:hover {
+    cursor: pointer;
+    background: #2b8bd7;
+    color: #fff;
+    box-shadow: #0000008f 0 3px 7px 1px;
+}
+.introButton {
+    background: transparent;
+    border: 0;
+}
+.connect {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+    width: 90%;
+}
+.introsection p{
+    width: 100%;
+}
+}
